@@ -18,7 +18,7 @@ public class ActivityTest extends VirtualDeviceBaseClass{
 	
 	Activity act=new Activity("io.appium.android.apis","io.appium.android.apis.accessibility.ClockBackActivity");
         // driver.startActivity(act);
-         
+         System.out.println("done Activity");
          
 	}
 }
