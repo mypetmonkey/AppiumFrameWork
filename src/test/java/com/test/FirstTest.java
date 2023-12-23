@@ -23,6 +23,7 @@ public class FirstTest extends RealDeviceBaseclass{
 		Thread.sleep(2000);
 		
 		System.out.println("done");
+		System.out.println("again done");
 	}
 
 }
