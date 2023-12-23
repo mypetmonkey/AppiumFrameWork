@@ -21,6 +21,8 @@ public class FirstTest extends RealDeviceBaseclass{
 		driver.findElement(By.xpath("//android.widget.Button[@resource-id=\"android:id/button1\"]")).click();
 		driver.navigate().back();
 		Thread.sleep(2000);
+		
+		System.out.println("done");
 	}
 
 }
